@@ -1,0 +1,7 @@
+curl "https://test.api.amadeus.com/v1/security/oauth2/token" \
+     -H "Content-Type: application/x-www-form-urlencoded" \
+     -d "grant_type=client_credentials&client_id=qaAiAFInZhmvByl0AWqDIEFSQSvO93ld&client_secret=Vfxp5gkU5WQGpHe3"
+
+### 
+curl 'https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=JFK&destinationLocationCode=LHR&departureDate=2026-02-10&returnDate=2026-02-20&adults=1&children=0&infants=0&travelClass=ECONOMY&nonStop=false&currencyCode=USD&maxPrice=1000&max=50' \
+      -H 'Authorization: Bearer QzDnmiL53Dx0PNPSzpZq22p2i4Gw'

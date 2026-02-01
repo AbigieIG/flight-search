@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✈️ git init
 
-## Getting Started
+A modern, responsive flight search experience built as part of the Spotter technical screening.  
+The app allows users to search flights, apply complex filters, and explore real-time price trends through an interactive graph.
 
-First, run the development server:
+---
 
+## 🔍 Features
+
+- **Flight Search**
+  - Search by origin, destination, travel dates, and passengers
+  - Results displayed in a clear, scannable list
+
+- **Live Price Graph**
+  - Interactive price trend visualization built with **Recharts**
+  - Updates instantly as filters are applied
+
+- **Complex Filtering**
+  - Combine multiple filters simultaneously (price, stops, airline, etc.)
+  - Filters update both:
+    - Flight results list
+    - Price graph (in real time)
+
+- **Responsive Design**
+  - Fully optimized for mobile and desktop
+  - Mobile-first layout with adaptive components
+
+- **Modern UI & UX**
+  - Clean visual hierarchy
+  - Fast interactions and instant feedback
+  - Thoughtful defaults to reduce friction
+
+---
+
+## 🌐 Live Demo
+
+- **Hosted App:** 🔗 https://flight-search-engine.vercel.app  
+- **Loom Walkthrough (3–4 mins):** 🔗 https://loom.com/your-demo
+
+---
+
+## 🧱 Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Frontend:** React 19 + TypeScript
+- **Styling:** Tailwind CSS
+- **Charts:** Recharts
+- **Icons:** lucide-react
+- **Data Fetching:** Axios
+- **API:** Amadeus Self-Service API (Test Environment)
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+### 1. Clone the repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/abigieig/flight-search-engine.git
+cd flight-search-engine
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2. Evironment variables
+```.env
+AMADEUS_API_KEY=
+AMADEUS_API_SECRET=
