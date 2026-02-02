@@ -1,4 +1,4 @@
-# ✈️ git init
+# ✈️ Flight Search Engine
 
 A modern, responsive flight search experience built as part of the Spotter technical screening.  
 The app allows users to search flights, apply complex filters, and explore real-time price trends through an interactive graph.
@@ -34,8 +34,8 @@ The app allows users to search flights, apply complex filters, and explore real-
 
 ## 🌐 Live Demo
 
-- **Hosted App:** 🔗 https://flight-search-engine.vercel.app  
-- **Loom Walkthrough (3–4 mins):** 🔗 https://loom.com/your-demo
+- **Hosted App:** 🔗 https://flightsearch-cyan.vercel.app/
+- **Loom Demo:** 🔗 https://www.loom.com/share/fe09403c09ea49e3967290063c0142ff
 
 ---
 
@@ -55,10 +55,12 @@ The app allows users to search flights, apply complex filters, and explore real-
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/abigieig/flight-search-engine.git
-cd flight-search-engine
+git clone https://github.com/AbigieIG/flight-search
+cd flight-search
 ```
 ### 2. Evironment variables
+
 ```.env
 AMADEUS_API_KEY=
 AMADEUS_API_SECRET=
+```

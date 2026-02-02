@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://flightsearch.vercel.app"),
+  metadataBase: new URL("https://flightsearch-cyan.vercel.app"),
   title: "Flight Search - Find & Book Flights",
   description:
     "Search and compare flight deals with advanced filters. Find the best flights for your trip with real-time pricing.",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Search and compare flight deals with advanced filters. Find the best flights for your trip with real-time pricing.",
     type: "website",
-    url: "https://flightsearch.vercel.app",
+    url: "https://flightsearch-cyan.vercel.app",
     images: [
       {
         url: "/images/flight.png",
